@@ -1,8 +1,26 @@
+
 <template>
   <q-page class="column items-center">
     <h4>Alunos</h4>
-    <q-list v-for="aluno in alunos" :key="aluno.id" class="column items-center">
-      <q-item>
+    <q-list bordered padding>
+      <q-item v-for="aluno in alunos" :key="aluno.id" clickable @click="goToDetails(aluno.id, aluno.name)">
+        <q-item-section avatar>
+          {{ aluno.id }}
+        </q-item-section>
+        <q-item-section>
+          {{ aluno.name }}
+        </q-item-section>
+      </q-item>
+    </q-list>
+    <br><br>
+    <q-btn color="black" to="/" exact label="Voltar"/>
+    <br><br>
+  </q-page>
+  <!--
+  <q-page class="column items-center">
+    <h4>Alunos</h4>
+    <q-list>
+      <q-item v-for="aluno in alunos" :key="aluno.id" class="column items-center">
         <q-btn
           :label="aluno.name"
           @click="goToDetails(aluno.id, aluno.name)"
@@ -14,6 +32,7 @@
     <q-btn color="black" to="/" exact label="Voltar"/>
     <br><br>
   </q-page>
+  -->
 </template>
 
 <script>
