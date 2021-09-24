@@ -7,6 +7,6 @@
 - It does not feature any authentication or data security systems.
 - I focused on using as many different Vue features as possible when developing, specially the newer ones, so the coding standard might feel weird.
 
-*This entire system was created in only a week by myself and with no prior Vue experience (and only VSC installed and configured)!*
+*This entire system was created in less than a week by myself and with no prior Vue experience (and only VSC installed and configured)!*
 
 #### In order to properly run this system, the frontend (at localhost:9999), backend (at localhost:8080) and database (at localhost:5432) must be setup and configured correctly using the aforementioned frameworks. Check the source code for details. ####
