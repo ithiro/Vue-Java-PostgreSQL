@@ -1,7 +1,7 @@
 # Vue-Java-PostgreSQL
 ## An exercise in creating a fullstack system using [Vue](https://vuejs.org/) in the frontend, [Java](https://www.java.com/) in the backend, and [PostgreSQL](https://www.postgresql.org/) as the database.
 
-**The frameworks used were [Spring](https://spring.io/) for the backend, and [Quasar](https://quasar.dev/) for the frontend (HTML, SCSS and JavaScript included).**
+**The frameworks used were [Spring](https://spring.io/) (plus Gradle, in the IntelliJ IDEA) for the backend, and [Quasar](https://quasar.dev/) for the frontend (HTML, SCSS and JavaScript included).**
 
 - It mocks a school's website with functions to list, register and run special queries on student names and test scores in a remote database.
 - It does not feature any authentication or data security systems.
