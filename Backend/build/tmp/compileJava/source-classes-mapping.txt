@@ -1,0 +1,9 @@
+com/exerciciorest/restservice/API.java
+ com.exerciciorest.restservice.API
+com/exerciciorest/restservice/Aluno.java
+ com.exerciciorest.restservice.Aluno
+com/exerciciorest/restservice/Prova.java
+ com.exerciciorest.restservice.Prova
+com/exerciciorest/restservice/RestServiceApplication.java
+ com.exerciciorest.restservice.RestServiceApplication
+ com.exerciciorest.restservice.RestServiceApplication$1
